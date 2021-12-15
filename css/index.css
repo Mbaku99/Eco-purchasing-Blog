@@ -13,6 +13,11 @@ body{
 .background {
 	/*background: #B0F7C2;*/
 	background: rgba(176, 247, 194, 0.7);
+}
+
+.background2 {
+	background: rgba(176, 247, 176, 0.35);
+	color: black;
 
 }
 
@@ -32,7 +37,7 @@ ul{
 }
 
 .ecofriendly-image{
-	background: url(../img/trees.jpg) no-repeat center center fixed;
+	background: url(../img/sunset3.jpg) no-repeat center center fixed;
 	min-height: 100vh;
 	background-size: cover;
 	display: flex;
@@ -61,6 +66,11 @@ a:hover{
 	flex-direction: column;
 }
 
+.about-me{
+	padding: 15px;
+	margin: 15px 0px;
+}
+
 article, .sidebar-widget {
 	padding: 15px;
 	margin: 15px 0;
@@ -70,9 +80,20 @@ article > header {
 	background: lightgreen;
 }
 
-img{
+.blog-images{
 	width: 100%;
 }
+
+.image-section{
+	text-align: center;
+}
+
+.wilf-image{
+	width: 400px;
+	height: auto;
+	border: 30px darkseagreen dotted;
+}
+
 
 td:nth-child(2) {
 	padding-left:  10px;
@@ -81,6 +102,28 @@ td:nth-child(2) {
 i {
 	margin: 0 5px;
 }
+
+h2{
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	color: darkolivegreen;
+	font-size: 70px;
+	text-decoration: underline;
+}
+
+h3{
+	padding: 10px;
+	margin: 10px;
+	text-align: left;
+	color: darkolivegreen;
+}
+
+
+.social{
+	text-align: left;
+}
+
 
 @media (min-width: 1000px){
 body{
@@ -96,13 +139,14 @@ header li{
 	display: inline-block ;
 }
 
-header h1, header nav {
+header h1, header nav, header h2{
 	flex: 1;
 }
 
-header h1{
+header h1, header h2{
 	text-align: left ;
 }
+
 
 header nav{
 	text-align: right;
