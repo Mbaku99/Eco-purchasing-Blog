@@ -37,6 +37,7 @@ header {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	border-bottom:#425A45 solid ;
 }
 
 li {
