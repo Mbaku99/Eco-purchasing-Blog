@@ -2,12 +2,23 @@ header h1{
 	font-family: 'Bayon', sans-serif;
 	color: darkolivegreen;
 	margin: 0;
-	padding: 10px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.title-text {
+	font-family: 'Bayon', sans-serif;
+	color: darkolivegreen;
+	font-size: 20px;
+}
+
+.box {
+	
 }
 
 body{
 	font-family: 'Sedgwick Ave', cursive;
-	color:  forestgreen;
+	color:  #79BA82;
 }
 
 .background {
@@ -16,8 +27,9 @@ body{
 }
 
 .background2 {
-	background: rgba(176, 247, 176, 0.35);
-	color: black;
+	background: rgba(63, 129, 54, 0.6);
+	color: #CFEED3;
+	border: #425A45 solid;
 
 }
 
@@ -37,7 +49,7 @@ ul{
 }
 
 .ecofriendly-image{
-	background: url(../img/sunset3.jpg) no-repeat center center fixed;
+	background: url(../img/forest2.jpg) no-repeat center center fixed;
 	min-height: 100vh;
 	background-size: cover;
 	display: flex;
@@ -59,6 +71,9 @@ a{
 
 a:hover{
 	color: darkolivegreen;
+	text-decoration: underline;
+	font-weight: bold;
+
 }
 
 .wrapper{
@@ -145,11 +160,20 @@ header h1, header nav, header h2{
 
 header h1, header h2{
 	text-align: left ;
+	float: left;
+	padding: 10px;
+}
+
+.title-text{
+	float: left;
+	padding: 45px 0 0 0;
+	margin: 0px
 }
 
 
 header nav{
 	text-align: right;
+	padding: 30px;
 }
 
 /* blog */
