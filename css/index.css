@@ -40,11 +40,20 @@ header {
 
 li {
 	list-style: none;
-	padding: 10px;
+	padding: 2px 10px 0 10px;
 }
 
 ul{
-	padding: 0;
+	padding: 0
+}
+
+.article ul{
+	padding: 12px 30px 0 0;
+	text-align: center;	
+}
+
+.article a{
+	margin: 10px;
 }
 
 .ecofriendly-image{
@@ -78,6 +87,7 @@ a:hover{
 .wrapper{
 	display: flex;
 	flex-direction: column;
+	background: ghostwhite;
 }
 
 body h2{
@@ -90,12 +100,16 @@ body h3{
 }
 
 .about-me{
-	padding: 15px;
+	padding: 0, 15px, 0 0;
 	margin: 0;
 	float: right;
 	border-top: darkolivegreen solid 5px;
-
 }
+
+body p{
+	margin: 10px;
+}
+
 
 article, .sidebar-widget {
 	padding: 15px;
@@ -118,7 +132,6 @@ article > header {
 	width: 400px;
 	height: auto;
 	border: 30px darkolivegreen;
-	float: right;
 }
 
 
@@ -185,7 +198,7 @@ header h1, header h2{
 
 header nav{
 	text-align: right;
-	padding: 30px;
+	padding: 31px 0;
 }
 
 /* blog */
@@ -204,6 +217,10 @@ aside {
 
 article > header {
 	justify-content: space-around;
+}
+
+.wilf-image{
+	float: right;
 }
 
 }
