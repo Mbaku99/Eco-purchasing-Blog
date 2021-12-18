@@ -12,13 +12,11 @@ header h1{
 	font-size: 20px;
 }
 
-.box {
-	
-}
 
 body{
-	font-family: 'Sedgwick Ave', cursive;
-	color:  #79BA82;
+	font-family: 'Bayon', sans-serif;
+	color:  #79A67F;
+	border: darkolivegreen 10px groove;
 }
 
 .background {
@@ -82,9 +80,21 @@ a:hover{
 	flex-direction: column;
 }
 
+body h2{
+	font-family: 'Indie Flower', cursive;
+}
+
+body h3{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
+
 .about-me{
 	padding: 15px;
-	margin: 15px 0px;
+	margin: 0;
+	float: right;
+	border-top: darkolivegreen solid 5px;
+
 }
 
 article, .sidebar-widget {
@@ -107,7 +117,8 @@ article > header {
 .wilf-image{
 	width: 400px;
 	height: auto;
-	border: 30px darkseagreen dotted;
+	border: 30px darkolivegreen;
+	float: right;
 }
 
 
