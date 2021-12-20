@@ -50,10 +50,26 @@ ul{
 .article ul{
 	padding: 12px 30px 0 0;
 	text-align: center;	
+	text
 }
+
 
 .article a{
 	margin: 10px;
+}
+
+.article li{
+	text-align: right;
+	display: inline-flex;
+}
+
+.article h4{
+	text-align: left;
+	display: inline-flex;
+	margin: 5px 0;
+	text-decoration: none;
+	font-size: 25px;
+	color: darkolivegreen;
 }
 
 .ecofriendly-image{
@@ -98,6 +114,14 @@ body h3{
 	font-family: 'Indie Flower', cursive;
 	font-size: 30px;
 }
+
+body h4{
+	padding: 0;
+	font-size: 20px;
+	text-align: left;
+}
+
+
 
 .about-me{
 	padding: 0, 15px, 0 0;
