@@ -13,6 +13,43 @@ header h1{
 }
 
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+nav{
+	font-size: 15px;
+	padding: 2px 10px 0 10px;
+	font-family: 'Bayon';
+	color: ;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  background-color: #CFEED3;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+	padding: 0;
+
+}
+.dropdown-content a {
+  display: block;
+  color: forestgreen;
+  padding: 5px, 15px, 5px, 15px;
+  text-decoration: none;
+  text-align: center;
+}
+.dropdown-content a:hover {
+  color: darkolivegreen;
+  background-color: #CFEED3;
+}
+
 body{
 	font-family: 'Bayon', sans-serif;
 	color:  #79A67F;
@@ -40,7 +77,6 @@ header {
 
 li {
 	list-style: none;
-	padding: 2px 10px 0 10px;
 }
 
 ul{
@@ -50,7 +86,6 @@ ul{
 .article ul{
 	padding: 12px 30px 0 0;
 	text-align: center;	
-	text
 }
 
 
@@ -88,15 +123,15 @@ ul{
 	border-radius: 10px;
 }
 
-a{
+nav a{
 	text-decoration: none;
-	color: forestgreen;	
+	color: forestgreen;
+	padding: 2px 10px 0 10px;	
 }
 
 a:hover{
 	color: darkolivegreen;
 	text-decoration: underline;
-	font-weight: bold;
 
 }
 
