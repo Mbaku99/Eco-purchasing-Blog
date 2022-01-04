@@ -25,6 +25,13 @@ nav{
 	color: ;
 }
 
+.search_bar{
+	height: 29.2px;
+	width: 200px;
+	margin-right: 10px;
+	text-align: center;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -183,6 +190,41 @@ article > header {
 	width: 100%;
 }
 
+.toothsoap{
+	width: 400px;
+	float: left;
+	clear: both;
+
+}
+
+article h5{
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	color: darkolivegreen;
+	margin: 0;
+}
+
+.toothsoap_text{
+	font-family: 'Indie Flower', cursive;
+	color: black;
+	font-size: 20px;
+}
+
+.article-comments{
+	background-color: lightgreen;
+
+}
+
+.article-comments-text{
+	color: darkolivegreen;
+	float: left;
+	margin-bottom: 10px;
+}
+
+section label{
+	color: darkolivegreen;
+}
+
 .image-section{
 	text-align: center;
 }
@@ -257,7 +299,7 @@ header h1, header h2{
 
 header nav{
 	text-align: right;
-	padding: 31px 0;
+	padding: 30px 10px 15px 0;
 }
 
 /* blog */
