@@ -76,6 +76,12 @@ body{
 	border-top: #425A45 solid 5px;
 }
 
+.about_me{
+	padding-left: 10px;
+	line-height: 2;
+	display: block;
+}
+
 .background2 {
 	background: rgba(63, 129, 54, 0.6);
 	color: #CFEED3;
@@ -181,13 +187,6 @@ body h4{
 
 }
 
-
-
-.about-me{
-	padding: 0, 15px, 0 0;
-	margin: 0;
-	float: right;
-	border-top: darkolivegreen solid 5px;
 }
 
 main p{
@@ -293,15 +292,12 @@ section label{
 	color: darkolivegreen;
 }
 
-.image-section{
-	text-align: center;
-}
 
 .wilf-image{
-	width: 400px;
-	height: auto;
 	border: 30px darkolivegreen;
-	max-width: 100%;
+	width: 30%;
+	margin: 0 auto;
+	display: flex;
 }
 
 
@@ -319,7 +315,6 @@ h2{
 	text-align: center;
 	color: darkolivegreen;
 	font-size: 60px;
-	max-width: 90%;
 	margin:  0 auto;
 }
 
@@ -343,10 +338,6 @@ h3{
 	background: rgba(176, 247, 194, 0.7);
 }
 
-.wilf-image{
-	left: 500px;
-	float: left;
-}
 
 
 @media (min-width: 1357px){
@@ -403,5 +394,15 @@ aside {
 article > header {
 	justify-content: space-around;
 }
+
+.wilf-image{
+		float: right;
+
+}
+
+h2{
+	text-align: left;
+}
+
 
 }
