@@ -201,6 +201,8 @@ article {
 
 article ul{
 		font-family: 'Special Elite', cursive;
+		padding: 0;
+		margin: 10px;
 
 }
 
@@ -268,7 +270,7 @@ article ol{
 }
 
 #sources{
-	font-size: 15px;
+	font-size: 12px;
 }
 
 article header{
