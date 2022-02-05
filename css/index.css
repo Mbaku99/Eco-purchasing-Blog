@@ -322,22 +322,28 @@ aside{
 
 .ratings{
 	background-color: forestgreen;
-	width: 280px;
 	border-radius: 20px;
 	font-size: 40px;
 	margin: auto;
-	display: inline;
+	display: inline-block;
+	vertical-align: baseline
+}
+
+article table{
+	padding-left: 10px;
 }
 
 .rating_text{
-	text-align: right;
-	margin: auto;
-	}
+	text-align: center;
+	width: 90%;
+	margin: 0;
+		}
 
 
 .rating_title{
 	font-size: 40px;
-	display: inline-block;
+	display: inline-flex;
+	margin: auto;
 }
 
 
@@ -447,7 +453,7 @@ h2{
 }
 }
 
-@media (min-width: 851px){
+@media (min-width: 940px){
 	article{
 		max-width: 932px
 	}
@@ -463,4 +469,26 @@ h2{
 .introduction-text{
 	font-size: 40px;
 }
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: rgba(22, 111, 22, 0.39);
+  min-width: 342px;
+  max-width: 430px;
+  box-shadow: 120px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: inline;
+}
+
 }
