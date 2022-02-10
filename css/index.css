@@ -380,17 +380,39 @@ form{
 
 .article-comments{
 	background-color: lightgreen;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+.article-comments input, .article-comments textarea{
+	width: 80%;
+	margin: 0;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border: 1px solid grey;
+	font-family: special-elite;
+	font-size: 20px;
 
 }
 
-.article-comments-text{
-	color: darkolivegreen;
-	float: left;
-	margin-bottom: 10px;
+.article-comments input:focus, .article-comments textarea:focus{
+	border: 2px solid black;
+}
+
+
+.article-comments button{
+	width: 80%;
+	font-family: special-elite;
+	font-size: 20px;
 }
 
 section label{
 	color: darkolivegreen;
+}
+
+comment-area{
+	width: 400px;
 }
 
 /**Size Adjustments*/
