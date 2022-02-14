@@ -381,8 +381,11 @@ form{
 .article-comments{
 	background-color: lightgreen;
 	width: 100%;
-	margin: 0;
 	display: block;
+}
+
+.article-comments form {
+	margin:auto;
 }
 
 .article-comments input, .article-comments textarea{
@@ -416,6 +419,8 @@ comment-area{
 }
 
 /**Size Adjustments*/
+
+/*large size*/
 
 @media (min-width: 1357px){
 body{
@@ -474,6 +479,8 @@ h2{
 	text-align: left;
 }
 }
+
+/*medium size*/
 
 @media (min-width: 940px){
 	article{
