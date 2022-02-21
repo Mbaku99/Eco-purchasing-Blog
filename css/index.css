@@ -377,6 +377,11 @@ form{
 	clear: both;
 }
 
+.comment-label{
+	display:flex;
+}
+
+
 
 .article-comments{
 	background-color: lightgreen;
