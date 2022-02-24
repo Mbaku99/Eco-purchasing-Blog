@@ -125,7 +125,7 @@ body h4{
 /**Introductionary Section**/
 
 .ecofriendly-image{
-	background: url(../img/Background1-1.jpg) no-repeat center center fixed;
+	background: url(../img/Background2.jpg) no-repeat center center fixed;
 	min-height: 70vh;
 	max-height: ;
 	background-size: cover;
@@ -399,6 +399,25 @@ comment-area{
 	width: 400px;
 }
 
+/**All Ratings**/
+
+#rating-table{
+	word-break:normal;
+}
+
+
+
+
+.ratings{
+	position: sticky;
+	word-break:keep-all;
+}
+
+
+
+
+
+
 /**Size Adjustments*/
 
 /*large size*/
@@ -468,7 +487,8 @@ h2{
 	font-size: 40px;
 	margin: auto;
 	display: inline-block;
-	vertical-align: baseline
+	vertical-align: baseline;
+	
 }
 
 article table{
@@ -477,25 +497,30 @@ article table{
 
 .rating_text{
 	text-align: center;
-	width: 90%;
+	min-width: 315px;
 	margin: 0;
 		}
 
 
-.rating_title{
-	font-size: 40px;
-	display: inline-flex;
-	margin: auto;
+
+
+#rating-table{
+	word-break:normal
+}
+
+.dropdown-content2{
+	min-width:342px;
 }
 
 }
 
 /*medium size*/
 
-@media (min-width: 940px){
-	article{
+@media (min-width: 941px){
+	
+article{
 		max-width: 932px
-	}
+}
 
 	article h2{
 	font-size: 60px;
@@ -505,33 +530,81 @@ ext		float: right;
 		overflow: auto;
 }
 
-.rating_title{
-	word-break: break-all;
-}
-
 .introduction-text{
 	font-size: 40px;
 }
 
+
+
+/**Medium Ratings**//
+
+
+
+#rating-table{
+	column-span: 50%;
+}
+
+.ratings{
+	width:100%
+}
+
+.ratings{
+	background-color: forestgreen;
+	border-radius: 20px;
+	font-size: 40px;
+	margin: auto;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
 .dropdown2 {
-  position: relative;
-  display: inline-block;
+	position: relative;
+	display: inline-block;
+	background: none;
+  }
+  
+  .dropdown-content2 {
+	display: none;
+	position: absolute;
+	background-color: rgba(22, 111, 22, 0.39);
+	min-width: 270px;
+	max-width: 430px;
+	box-shadow: 120px rgba(0,0,0,0.2);
+	z-index: 1;
+	padding: 10px;
+	border-radius: 20px;
+  }
+  
+  .dropdown2:hover .dropdown-content2 {
+	display: inline;
+	background-color: none;
+  }
+
+.rating_title{
+	font-size: 40px;
+	display: inline-flex;
+	margin: auto;
+	width:50%;
 }
 
-.dropdown-content2 {
-  display: none;
-  position: absolute;
-  background-color: rgba(22, 111, 22, 0.39);
-  min-width: 342px;
-  max-width: 430px;
-  box-shadow: 120px rgba(0,0,0,0.2);
-  z-index: 1;
-  padding: 10px;
-  border-radius: 20px;
 }
 
-.dropdown2:hover .dropdown-content2 {
-  display: inline;
-}
+@media (max-width: 941px){
+	
+	.ratings{
+		word-break: break-all;
+		padding: 10px;
+		font-size: 25px;
+	}
 
+	.rating_title{
+		vertical-align: text-top;
+	}
+
+	.dropdown2{
+		background-color: rgba(22, 111, 22, 0.39);
+		box-shadow: 120px rgba(0,0,0,0.2);
+		padding: 10px;
+		border-radius: 20px;;
+	}
 }
