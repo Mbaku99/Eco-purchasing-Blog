@@ -1,3 +1,6 @@
+/**Add responsive font-sizes, backup fonts)
+
+
 /**Header**/
 
 header h1{
@@ -199,6 +202,10 @@ article {
 	word-break: break-word;
 }
 
+article header h2{
+	letter-spacing: 10px;
+}
+
 article ul{
 		font-family: 'Special Elite', cursive;
 		padding: 0;
@@ -281,7 +288,7 @@ article header{
 
 aside{
 	text-align: center;
-	margin: auto;
+	width: 1000px;
 }
 
 
@@ -466,7 +473,8 @@ main {
 
 aside {
 	flex: 1;
-	margin-left: 15px;
+	/**position: fixed;**/
+
 }
 
 article > header {
